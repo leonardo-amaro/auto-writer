@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #080808;
+    color: #F6F6F6;
+    font-family: monospace;
+    font-size: 125%;
+}
+
+/* Header --------- */
+header {
+    margin-bottom: 2.5rem;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+/* Cursor animado --------- */
+#title::after {
+    content: "|";
+    animation: blink 0.73s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 0;
+    }
+
+    25%, 50%, 75% {
+        opacity: 1;
+    }
+}
+
+/* Footer --------- */
+footer {
+    font-weight: 100;
+    color: #f6ae11;
+    text-align: center;
+}
