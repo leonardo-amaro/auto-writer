@@ -1,2 +1,2 @@
-# auto-writer
-This is my first repository and I made it to learn more about GitHub interface.
+# Auto Writer
+A header using the power of **JavaScript** and **Array** to make some text appear.
